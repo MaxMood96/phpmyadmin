@@ -33,7 +33,7 @@
     "postcss": "^8.3.5",
     "postcss-cli": "^8.3.1",
     "rtlcss": "^3.2.0",
-    "sass": "^1.35.1",
+    "sass": "^1.35.2",
     "stickyfilljs": "2.1.0",
     "tablesorter": "^2.31.3",
     "tracekit": "0.4.6",
