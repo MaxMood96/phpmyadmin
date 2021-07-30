@@ -999,11 +999,6 @@
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-26.6.2.tgz#ba364cc72e221e79cc8f0a99555bf5d7577cf92c"
   integrity sha512-nFy+fHl28zUrRsCeMB61VDThV1pVTtlEokBRgqPrcT1JNq4yRNIyTHfyht6PqtUvY9IsuLGTrbG8kPXjSZIZwA==
-  dependencies:
-    "@jest/fake-timers" "^26.6.2"
-    "@jest/types" "^26.6.2"
-    "@types/node" "*"
-    jest-mock "^26.6.2"
 
 "@jest/fake-timers@^26.6.2":
   version "26.6.2"
@@ -5019,10 +5014,10 @@ rsvp@^4.8.4:
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
-rtlcss@^3.2.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/rtlcss/-/rtlcss-3.2.1.tgz#654e55ea2f46991f9738d952ba77ba0aa94a670d"
-  integrity sha512-S9bh35JXwPIhfun7nFu/HjlNrwELL5nvTJqA1suLfbnqY/mauIL5sBkrJNHziVppX9PA2rJ7NV82+RtzB71mJA==
+rtlcss@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/rtlcss/-/rtlcss-3.3.0.tgz#fa9d29b071a863fe959704da6a93de3076aeeca4"
+  integrity sha512-XZ2KEatH2nU5yPlts1Wu8SGIuZ3ndN025HQX5MqtUCUiOn5WkCDbcpJ2VJWjpuFmM2cUTQ1xtH21fhMCSseI5A==
   dependencies:
     chalk "^4.1.0"
     find-up "^5.0.0"
