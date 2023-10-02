@@ -42,7 +42,7 @@
     "locutus.sprintf": "^2.0.14-code-lts.2",
     "mini-css-extract-plugin": "^2.5.3",
     "ol": "^7.1.0",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
     "postcss-loader": "^7.1.0",
     "rtlcss": "^4.0.0",
