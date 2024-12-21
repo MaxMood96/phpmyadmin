@@ -49,9 +49,6 @@ class TableTest extends AbstractTestCase
         $config->settings['MaxExactCount'] = 100;
         $config->settings['MaxExactCountViews'] = 100;
         $config->selectedServer['pmadb'] = 'pmadb';
-        $GLOBALS['sql_auto_increment'] = true;
-        $GLOBALS['sql_if_not_exists'] = true;
-        $GLOBALS['sql_drop_table'] = true;
         $config->selectedServer['table_uiprefs'] = 'pma__table_uiprefs';
 
         $sqlIsViewTrue = 'SELECT 1'
@@ -1342,8 +1339,6 @@ class TableTest extends AbstractTestCase
         $targetTable = 'PMA_BookMark_new';
         $targetDb = 'PMA_new';
 
-        unset($GLOBALS['sql_drop_table']);
-
         $getTableMap = [
             [$targetDb, $targetTable, new Table($targetTable, $targetDb, $this->mockedDbi)],
             ['aa', 'ad', new Table('ad', 'aa', $this->mockedDbi)],
@@ -1399,29 +1394,29 @@ class TableTest extends AbstractTestCase
                 [
                     'SHOW CREATE TABLE `aa`.`ad`',
                     ConnectionType::User,
-                    DatabaseInterface::QUERY_BUFFERED,
+                    false,
                     true,
                     $resultStub,
                 ],
                 [
                     'SHOW TABLE STATUS FROM `aa` WHERE Name = \'ad\'',
                     ConnectionType::User,
-                    DatabaseInterface::QUERY_BUFFERED,
+                    false,
                     true,
                     $resultStub,
                 ],
-                ['USE `aa`', ConnectionType::User, DatabaseInterface::QUERY_BUFFERED, true, $resultStub],
+                ['USE `aa`', ConnectionType::User, false, true, $resultStub],
                 [
                     'RENAME TABLE `PMA`.`PMA_BookMark` TO `PMA`.`PMA_.BookMark`;',
                     ConnectionType::User,
-                    DatabaseInterface::QUERY_BUFFERED,
+                    false,
                     true,
                     false,
                 ],
                 [
                     'RENAME TABLE `aa`.`ad` TO `bb`.`ad`;',
                     ConnectionType::User,
-                    DatabaseInterface::QUERY_BUFFERED,
+                    false,
                     true,
                     false,
                 ],

@@ -1084,12 +1084,6 @@ parameters:
 			path: src/Config/FormDisplay.php
 
 		-
-			message: '#^Parameter \#2 \$array of function implode expects array\<string\>, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Config/FormDisplay.php
-
-		-
 			message: '#^Parameter \#2 \$array of function implode expects array\|null, mixed given\.$#'
 			identifier: argument.type
 			count: 1
@@ -1190,12 +1184,6 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: src/Config/Forms/BaseForm.php
-
-		-
-			message: '#^Parameter \#1 \$array of function array_diff expects an array of values castable to string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Config/Forms/Setup/FeaturesForm.php
 
 		-
 			message: '#^Parameter \#1 \$array of function array_diff expects array, mixed given\.$#'
@@ -4672,7 +4660,7 @@ parameters:
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#1 \$destinationForeignDb of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#1 \$destinationForeignDb of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<string\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
@@ -4690,7 +4678,7 @@ parameters:
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#1 \$multiEditColumnsName of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#1 \$multiEditColumnsName of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<string\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
@@ -4702,13 +4690,13 @@ parameters:
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#2 \$destinationDb of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#2 \$destinationDb of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<string\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#2 \$multiEditColumnsName of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#2 \$multiEditColumnsName of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<array\<string\>\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
@@ -4726,13 +4714,13 @@ parameters:
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#3 \$destinationForeignTable of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#3 \$destinationForeignTable of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<string\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#3 \$destinationTable of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#3 \$destinationTable of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<string\|null\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
@@ -4744,13 +4732,13 @@ parameters:
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#4 \$destinationColumn of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#4 \$destinationColumn of method PhpMyAdmin\\Table\\Table\:\:updateInternalRelations\(\) expects array\<string\|null\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
 
 		-
-			message: '#^Parameter \#4 \$destinationForeignColumn of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#4 \$destinationForeignColumn of method PhpMyAdmin\\Table\\Table\:\:updateForeignKeys\(\) expects array\<array\<string\>\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Controllers/Table/RelationController.php
@@ -7135,7 +7123,7 @@ parameters:
 			path: src/Dbal/MysqliResult.php
 
 		-
-			message: '#^Method PhpMyAdmin\\Dbal\\MysqliResult\:\:fetchAllKeyPair\(\) should return array\<string\|null\> but returns array\<int\|string, mixed\>\.$#'
+			message: '#^Method PhpMyAdmin\\Dbal\\MysqliResult\:\:fetchAllKeyPair\(\) should return array\<string\|null\> but returns array\.$#'
 			identifier: return.type
 			count: 1
 			path: src/Dbal/MysqliResult.php
@@ -8548,12 +8536,6 @@ parameters:
 			path: src/Footer.php
 
 		-
-			message: '#^Method PhpMyAdmin\\Footer\:\:getGitRevisionInfo\(\) should return array\<string, string\> but returns array\<mixed\>\.$#'
-			identifier: return.type
-			count: 1
-			path: src/Footer.php
-
-		-
 			message: '#^Only booleans are allowed in &&, array\<mixed, mixed\>\|object given on the right side\.$#'
 			identifier: booleanAnd.rightNotBoolean
 			count: 1
@@ -9184,7 +9166,7 @@ parameters:
 			path: src/Git.php
 
 		-
-			message: '#^Parameter \#1 \$commit of method PhpMyAdmin\\Git\:\:extractDataFormTextBody\(\) expects array\<mixed\>, mixed given\.$#'
+			message: '#^Parameter \#1 \$commit of static method PhpMyAdmin\\Git\:\:extractDataFormTextBody\(\) expects array\<string\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Git.php
@@ -9226,7 +9208,7 @@ parameters:
 			path: src/Git.php
 
 		-
-			message: '#^Parameter \#2 \$string of function explode expects string, mixed given\.$#'
+			message: '#^Parameter \#2 \$string of function explode expects string, string\|null given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Git.php
@@ -10840,12 +10822,6 @@ parameters:
 			path: src/Normalization.php
 
 		-
-			message: '#^Parameter \#1 \$array of function array_unique expects an array of values castable to string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Normalization.php
-
-		-
 			message: '#^Parameter \#1 \$array of function array_unique expects array, mixed given\.$#'
 			identifier: argument.type
 			count: 1
@@ -10883,12 +10859,6 @@ parameters:
 
 		-
 			message: '#^Parameter \#1 \$value of function count expects array\|Countable, mixed given\.$#'
-			identifier: argument.type
-			count: 3
-			path: src/Normalization.php
-
-		-
-			message: '#^Parameter \#2 \$array of function implode expects array\<string\>, mixed given\.$#'
 			identifier: argument.type
 			count: 3
 			path: src/Normalization.php
@@ -11884,12 +11854,6 @@ parameters:
 			path: src/Plugins/Export/ExportCodegen.php
 
 		-
-			message: '#^Cannot cast mixed to int\.$#'
-			identifier: cast.int
-			count: 1
-			path: src/Plugins/Export/ExportCodegen.php
-
-		-
 			message: '#^Parameter \#1 \$str of static method PhpMyAdmin\\Plugins\\Export\\ExportCodegen\:\:cgMakeIdentifier\(\) expects string, string\|null given\.$#'
 			identifier: argument.type
 			count: 6
@@ -11900,18 +11864,6 @@ parameters:
 			identifier: argument.type
 			count: 2
 			path: src/Plugins/Export/ExportCodegen.php
-
-		-
-			message: '#^Binary operation "\." between mixed and ''_null'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportCsv.php
-
-		-
-			message: '#^Binary operation "\." between mixed and ''_removeCRLF'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 2
-			path: src/Plugins/Export/ExportCsv.php
 
 		-
 			message: '#^Binary operation "\." between mixed and \(list\<string\>\|string\) results in an error\.$#'
@@ -11991,7 +11943,7 @@ parameters:
 		-
 			message: '#^Only booleans are allowed in &&, mixed given on the right side\.$#'
 			identifier: booleanAnd.rightNotBoolean
-			count: 2
+			count: 3
 			path: src/Plugins/Export/ExportCsv.php
 
 		-
@@ -12031,12 +11983,6 @@ parameters:
 			path: src/Plugins/Export/ExportHtmlword.php
 
 		-
-			message: '#^Binary operation "\." between mixed and ''_null'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportHtmlword.php
-
-		-
 			message: '''
 				#^Call to deprecated method getInstance\(\) of class PhpMyAdmin\\DatabaseInterface\:
 				Use dependency injection instead\.$#
@@ -12061,12 +12007,6 @@ parameters:
 			message: '#^Cannot access offset string on mixed\.$#'
 			identifier: offsetAccess.nonOffsetAccessible
 			count: 6
-			path: src/Plugins/Export/ExportHtmlword.php
-
-		-
-			message: '#^Cannot cast mixed to string\.$#'
-			identifier: cast.string
-			count: 1
 			path: src/Plugins/Export/ExportHtmlword.php
 
 		-
@@ -12115,12 +12055,6 @@ parameters:
 			path: src/Plugins/Export/ExportJson.php
 
 		-
-			message: '#^Only booleans are allowed in &&, mixed given on the right side\.$#'
-			identifier: booleanAnd.rightNotBoolean
-			count: 2
-			path: src/Plugins/Export/ExportJson.php
-
-		-
 			message: '#^Parameter \#4 \$aliases of method PhpMyAdmin\\Plugins\\Export\\ExportJson\:\:doExportForQuery\(\) expects array\<string, array\{tables\: array\<string, array\{columns\: array\<string, string\>\}\>\}\>\|null, array\<mixed\> given\.$#'
 			identifier: argument.type
 			count: 1
@@ -12133,20 +12067,8 @@ parameters:
 			path: src/Plugins/Export/ExportLatex.php
 
 		-
-			message: '#^Binary operation "\." between mixed and '' & '' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportLatex.php
-
-		-
 			message: '#^Binary operation "\." between non\-falsy\-string and mixed results in an error\.$#'
 			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportLatex.php
-
-		-
-			message: '#^Binary operation "\.\=" between string and mixed results in an error\.$#'
-			identifier: assignOp.invalid
 			count: 1
 			path: src/Plugins/Export/ExportLatex.php
 
@@ -12223,12 +12145,6 @@ parameters:
 			path: src/Plugins/Export/ExportLatex.php
 
 		-
-			message: '#^Parameter \#1 \$string of static method PhpMyAdmin\\Util\:\:expandUserString\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 6
-			path: src/Plugins/Export/ExportLatex.php
-
-		-
 			message: '#^Binary operation "\." between '' \! '' and mixed results in an error\.$#'
 			identifier: binaryOp.invalid
 			count: 1
@@ -12280,36 +12196,6 @@ parameters:
 			path: src/Plugins/Export/ExportMediawiki.php
 
 		-
-			message: '#^Binary operation "\." between mixed and ''_columns'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOds.php
-
-		-
-			message: '#^Binary operation "\." between mixed and ''_null'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOds.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and ''\</office…'' results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOds.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and ''\<\?xml version\="1\.0"…'' results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOds.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and non\-falsy\-string results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOds.php
-
-		-
 			message: '''
 				#^Call to deprecated method getInstance\(\) of class PhpMyAdmin\\DatabaseInterface\:
 				Use dependency injection instead\.$#
@@ -12351,7 +12237,7 @@ parameters:
 		-
 			message: '#^Parameter \#1 \$string of function htmlspecialchars expects string, mixed given\.$#'
 			identifier: argument.type
-			count: 2
+			count: 1
 			path: src/Plugins/Export/ExportOds.php
 
 		-
@@ -12373,45 +12259,9 @@ parameters:
 			path: src/Plugins/Export/ExportOdt.php
 
 		-
-			message: '#^Binary operation "\." between mixed and ''_columns'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOdt.php
-
-		-
-			message: '#^Binary operation "\." between mixed and ''_null'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOdt.php
-
-		-
 			message: '#^Binary operation "\." between non\-falsy\-string and mixed results in an error\.$#'
 			identifier: binaryOp.invalid
 			count: 1
-			path: src/Plugins/Export/ExportOdt.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and ''\</office\:text\>\<…'' results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOdt.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and ''\<\?xml version\="1\.0"…'' results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOdt.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and ''\<text\:h text…'' results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportOdt.php
-
-		-
-			message: '#^Binary operation "\.\=" between mixed and non\-falsy\-string results in an error\.$#'
-			identifier: assignOp.invalid
-			count: 8
 			path: src/Plugins/Export/ExportOdt.php
 
 		-
@@ -12480,7 +12330,7 @@ parameters:
 		-
 			message: '#^Parameter \#1 \$string of function htmlspecialchars expects string, mixed given\.$#'
 			identifier: argument.type
-			count: 3
+			count: 2
 			path: src/Plugins/Export/ExportOdt.php
 
 		-
@@ -12578,12 +12428,6 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: src/Plugins/Export/ExportPhparray.php
-
-		-
-			message: '#^Binary operation "\." between ''SET SQL_MODE\="'' and mixed results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportSql.php
 
 		-
 			message: '#^Binary operation "\." between ''SET time_zone \= "'' and mixed results in an error\.$#'
@@ -12714,7 +12558,7 @@ parameters:
 		-
 			message: '#^Construct empty\(\) is not allowed\. Use more strict comparison\.$#'
 			identifier: empty.notAllowed
-			count: 41
+			count: 27
 			path: src/Plugins/Export/ExportSql.php
 
 		-
@@ -12730,6 +12574,12 @@ parameters:
 			path: src/Plugins/Export/ExportSql.php
 
 		-
+			message: '#^Method PhpMyAdmin\\Plugins\\Export\\ExportSql\:\:setMaxQuerySize\(\) should return int\<0, max\> but returns int\.$#'
+			identifier: return.type
+			count: 2
+			path: src/Plugins/Export/ExportSql.php
+
+		-
 			message: '#^Only booleans are allowed in &&, bool\|null given on the left side\.$#'
 			identifier: booleanAnd.leftNotBoolean
 			count: 1
@@ -12739,12 +12589,6 @@ parameters:
 			message: '#^Only booleans are allowed in &&, mixed given on the left side\.$#'
 			identifier: booleanAnd.leftNotBoolean
 			count: 1
-			path: src/Plugins/Export/ExportSql.php
-
-		-
-			message: '#^Only booleans are allowed in &&, mixed given on the right side\.$#'
-			identifier: booleanAnd.rightNotBoolean
-			count: 4
 			path: src/Plugins/Export/ExportSql.php
 
 		-
@@ -12784,18 +12628,6 @@ parameters:
 			path: src/Plugins/Export/ExportSql.php
 
 		-
-			message: '#^Parameter \#2 \$compat of method PhpMyAdmin\\Plugins\\Export\\ExportSql\:\:exportUseStatement\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 2
-			path: src/Plugins/Export/ExportSql.php
-
-		-
-			message: '#^Parameter \#2 \$compatibility of static method PhpMyAdmin\\Util\:\:backquoteCompat\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 13
-			path: src/Plugins/Export/ExportSql.php
-
-		-
 			message: '#^Parameter \#2 \$haystack of function in_array expects array, mixed given\.$#'
 			identifier: argument.type
 			count: 1
@@ -12811,12 +12643,6 @@ parameters:
 			message: '#^Parameter \#2 \$sqlQuery of method PhpMyAdmin\\Plugins\\Export\\ExportSql\:\:replaceWithAliases\(\) expects string, string\|null given\.$#'
 			identifier: argument.type
 			count: 2
-			path: src/Plugins/Export/ExportSql.php
-
-		-
-			message: '#^Parameter \#2 \$string of function explode expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
 			path: src/Plugins/Export/ExportSql.php
 
 		-
@@ -12844,12 +12670,6 @@ parameters:
 			path: src/Plugins/Export/ExportSql.php
 
 		-
-			message: '#^Parameter \#5 \$compat of method PhpMyAdmin\\Plugins\\Export\\ExportSql\:\:generateComment\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 3
-			path: src/Plugins/Export/ExportSql.php
-
-		-
 			message: '#^Property PhpMyAdmin\\SqlParser\\Components\\CreateDefinition\:\:\$name \(string\|null\) does not accept mixed\.$#'
 			identifier: assign.propertyType
 			count: 1
@@ -12866,18 +12686,6 @@ parameters:
 			identifier: assign.propertyType
 			count: 1
 			path: src/Plugins/Export/ExportSql.php
-
-		-
-			message: '#^Binary operation "\." between mixed and ''_columns'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportTexytext.php
-
-		-
-			message: '#^Binary operation "\." between mixed and ''_null'' results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Plugins/Export/ExportTexytext.php
 
 		-
 			message: '''
@@ -12921,7 +12729,7 @@ parameters:
 		-
 			message: '#^Parameter \#1 \$string of function htmlspecialchars expects string, mixed given\.$#'
 			identifier: argument.type
-			count: 3
+			count: 2
 			path: src/Plugins/Export/ExportTexytext.php
 
 		-
@@ -13005,18 +12813,6 @@ parameters:
 		-
 			message: '#^Foreach overwrites \$table with its value variable\.$#'
 			identifier: foreach.valueOverwrite
-			count: 1
-			path: src/Plugins/Export/ExportXml.php
-
-		-
-			message: '#^Only booleans are allowed in &&, mixed given on the right side\.$#'
-			identifier: booleanAnd.rightNotBoolean
-			count: 6
-			path: src/Plugins/Export/ExportXml.php
-
-		-
-			message: '#^Only booleans are allowed in a negated boolean, mixed given\.$#'
-			identifier: booleanNot.exprNotBoolean
 			count: 1
 			path: src/Plugins/Export/ExportXml.php
 
@@ -16417,12 +16213,6 @@ parameters:
 			path: src/Server/Status/Monitor.php
 
 		-
-			message: '#^Parameter \#2 \$array of function implode expects array\<string\>, mixed given\.$#'
-			identifier: argument.type
-			count: 2
-			path: src/Server/Status/Monitor.php
-
-		-
 			message: '#^Parameter \#2 \$array of function implode expects array\|null, mixed given\.$#'
 			identifier: argument.type
 			count: 2
@@ -17290,18 +17080,6 @@ parameters:
 			path: src/Table/Search.php
 
 		-
-			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
-			identifier: foreach.nonIterable
-			count: 1
-			path: src/Table/Table.php
-
-		-
-			message: '#^Binary operation "\." between string and mixed results in an error\.$#'
-			identifier: binaryOp.invalid
-			count: 1
-			path: src/Table/Table.php
-
-		-
 			message: '#^Binary operation "\.\=" between string and mixed results in an error\.$#'
 			identifier: assignOp.invalid
 			count: 1
@@ -17392,12 +17170,6 @@ parameters:
 			path: src/Table/Table.php
 
 		-
-			message: '#^Cannot access offset mixed on mixed\.$#'
-			identifier: offsetAccess.nonOffsetAccessible
-			count: 5
-			path: src/Table/Table.php
-
-		-
 			message: '#^Cannot access offset string on mixed\.$#'
 			identifier: offsetAccess.nonOffsetAccessible
 			count: 6
@@ -17435,18 +17207,6 @@ parameters:
 
 		-
 			message: '#^Method PhpMyAdmin\\Table\\Table\:\:getComment\(\) should return string but returns int\|string\.$#'
-			identifier: return.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
-			message: '#^Method PhpMyAdmin\\Table\\Table\:\:getLastError\(\) should return string but returns mixed\.$#'
-			identifier: return.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
-			message: '#^Method PhpMyAdmin\\Table\\Table\:\:getLastMessage\(\) should return string but returns mixed\.$#'
 			identifier: return.type
 			count: 1
 			path: src/Table/Table.php
@@ -17502,13 +17262,13 @@ parameters:
 		-
 			message: '#^Parameter \#1 \$identifier of static method PhpMyAdmin\\Util\:\:backquote\(\) expects string\|Stringable\|null, mixed given\.$#'
 			identifier: argument.type
-			count: 5
+			count: 2
 			path: src/Table/Table.php
 
 		-
-			message: '#^Parameter \#1 \$str of method PhpMyAdmin\\DatabaseInterface\:\:quoteString\(\) expects string, mixed given\.$#'
+			message: '#^Parameter \#1 \$indexed of method PhpMyAdmin\\Table\\Table\:\:formatColumns\(\) expects array\<string\>, array\<mixed\> given\.$#'
 			identifier: argument.type
-			count: 9
+			count: 2
 			path: src/Table/Table.php
 
 		-
@@ -17530,24 +17290,6 @@ parameters:
 			path: src/Table/Table.php
 
 		-
-			message: '#^Parameter \#2 \$array of function implode expects array\<string\>, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
-			message: '#^Parameter \#2 \$array of function implode expects array\|null, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
-			message: '#^Parameter \#2 \$field of method PhpMyAdmin\\Table\\Table\:\:getSQLToCreateForeignKey\(\) expects array\<mixed\>, mixed given\.$#'
-			identifier: argument.type
-			count: 2
-			path: src/Table/Table.php
-
-		-
 			message: '#^Parameter \#2 \$string of function explode expects string, mixed given\.$#'
 			identifier: argument.type
 			count: 1
@@ -17560,31 +17302,13 @@ parameters:
 			path: src/Table/Table.php
 
 		-
-			message: '#^Parameter \#3 \$foreignDb of method PhpMyAdmin\\Table\\Table\:\:getSQLToCreateForeignKey\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
 			message: '#^Parameter \#3 \$foreignDb of method PhpMyAdmin\\Table\\Table\:\:getSQLToCreateForeignKey\(\) expects string, string\|null given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Table/Table.php
 
 		-
-			message: '#^Parameter \#4 \$foreignTable of method PhpMyAdmin\\Table\\Table\:\:getSQLToCreateForeignKey\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
 			message: '#^Parameter \#4 \$foreignTable of method PhpMyAdmin\\Table\\Table\:\:getSQLToCreateForeignKey\(\) expects string, string\|null given\.$#'
-			identifier: argument.type
-			count: 1
-			path: src/Table/Table.php
-
-		-
-			message: '#^Parameter \#5 \$foreignField of method PhpMyAdmin\\Table\\Table\:\:getSQLToCreateForeignKey\(\) expects array\<mixed\>, mixed given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/Table/Table.php
@@ -19450,12 +19174,6 @@ parameters:
 			path: tests/unit/Command/TwigLintCommandTest.php
 
 		-
-			message: '#^Parameter \#1 \$array of function sort expects an array of values castable to string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: tests/unit/Command/TwigLintCommandTest.php
-
-		-
 			message: '#^Binary operation "\." between mixed and ''\.abc'' results in an error\.$#'
 			identifier: binaryOp.invalid
 			count: 1
@@ -21229,6 +20947,78 @@ parameters:
 			path: tests/unit/Gis/GisPolygonTest.php
 
 		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''author'' and array\{hash\: ''97b9895908f281b62c9…'', branch\: ''QA_5_2'', message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''branch'' and array\{hash\: ''97b9895908f281b62c9…'', branch\: string\|false, message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''committer'' and array\{hash\: ''97b9895908f281b62c9…'', branch\: ''QA_5_2'', message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''hash'' and array\{hash\: string, branch\: string\|false, message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''is_remote_branch'' and array\{hash\: ''97b9895908f281b62c9…'', branch\: ''QA_5_2'', message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''is_remote_commit'' and array\{hash\: ''97b9895908f281b62c9…'', branch\: ''QA_5_2'', message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''message'' and array\{hash\: ''97b9895908f281b62c9…'', branch\: ''QA_5_2'', message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertIsArray\(\) with array\{hash\: string, branch\: string\|false, message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertIsArray\(\) with array\{name\: string, email\: string, date\: string\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 2
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertIsBool\(\) with bool will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 2
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertIsString\(\) with string will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 7
+			path: tests/unit/GitTest.php
+
+		-
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertNotNull\(\) with array\{hash\: string, branch\: string\|false, message\: string, author\: array\{name\: string, email\: string, date\: string\}, committer\: array\{name\: string, email\: string, date\: string\}, is_remote_commit\: bool, is_remote_branch\: bool\} will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
+			count: 1
+			path: tests/unit/GitTest.php
+
+		-
 			message: '''
 				#^Call to deprecated method getInstance\(\) of class PhpMyAdmin\\Config\:
 				Use dependency injection instead\.$#
@@ -21904,12 +21694,6 @@ parameters:
 			path: tests/unit/Plugins/Export/ExportOdtTest.php
 
 		-
-			message: '#^Parameter \#2 \$haystack of static method PHPUnit\\Framework\\Assert\:\:assertStringContainsString\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 11
-			path: tests/unit/Plugins/Export/ExportOdtTest.php
-
-		-
 			message: '''
 				#^Call to deprecated method getInstance\(\) of class PhpMyAdmin\\Config\:
 				Use dependency injection instead\.$#
@@ -21921,7 +21705,7 @@ parameters:
 		-
 			message: '#^Parameter \#2 \$haystack of static method PHPUnit\\Framework\\Assert\:\:assertStringContainsString\(\) expects string, mixed given\.$#'
 			identifier: argument.type
-			count: 4
+			count: 2
 			path: tests/unit/Plugins/Export/ExportSqlTest.php
 
 		-
