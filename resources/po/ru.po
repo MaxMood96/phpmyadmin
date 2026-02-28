@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: phpMyAdmin 6.0.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
 "POT-Creation-Date: 2026-02-25 13:54+0000\n"
-"PO-Revision-Date: 2026-02-28 07:09+0000\n"
+"PO-Revision-Date: 2026-03-01 00:41+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/phpmyadmin/"
 "master/ru/>\n"
@@ -12516,19 +12516,15 @@ msgstr ""
 "обратитесь к [doc@cfg_URLQueryEncryptionSecretKey]документации[/doc]."
 
 #: src/Controllers/HomeController.php:366
-#, fuzzy, php-format
-#| msgid ""
-#| "The cookie encryption key in the configuration file is longer than "
-#| "necessary. It should only be %d bytes long. Please refer to the "
-#| "[doc@cfg_blowfish_secret]documentation[/doc]."
+#, php-format
 msgid ""
 "The query encryption key in the configuration file is longer than necessary. "
 "It should only be %d bytes long. Please refer to the "
 "[doc@cfg_URLQueryEncryptionSecretKey]documentation[/doc]."
 msgstr ""
-"Ключ шифрования куки в конфигурационном файле длиннее необходимого. Его "
-"длина должна быть всего %d байт. Пожалуйста, обратитесь к "
-"[doc@cfg_blowfish_secret]документации[/doc] ."
+"Ключ шифрования запроса в файле конфигурации длиннее, чем необходимо. Его "
+"длина должна составлять только %d байт. См. "
+"[doc@cfg_URLQueryEncryptionSecretKey]documentation[/doc]."
 
 #: src/Controllers/HomeController.php:384
 msgid ""
@@ -14164,6 +14160,8 @@ msgid ""
 "The fullscreen request was denied because the Fullscreen API is disabled by "
 "user preference in the browser."
 msgstr ""
+"Запрос на полноэкранный режим был отклонён, поскольку API полноэкранного "
+"режима отключён в настройках браузера."
 
 #: src/Controllers/JavaScriptMessagesController.php:700
 msgctxt "Month name"
@@ -18972,6 +18970,8 @@ msgid ""
 "Stores vector data optimized for operations such as similarity search and "
 "machine learning applications"
 msgstr ""
+"Хранит векторные данные, оптимизированные для таких операций, как поиск по "
+"схожести и приложения машинного обучения"
 
 #: src/Types.php:604
 msgctxt "numeric types"
