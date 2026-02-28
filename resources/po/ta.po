@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: phpMyAdmin 6.0.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
 "POT-Creation-Date: 2026-02-25 13:54+0000\n"
-"PO-Revision-Date: 2026-02-28 07:09+0000\n"
+"PO-Revision-Date: 2026-03-01 00:41+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/phpmyadmin/master/"
 "ta/>\n"
@@ -8475,7 +8475,7 @@ msgid "Your InnoDB buffer pool is fairly small."
 msgstr "உங்கள் INNODB இடையக குளம் மிகவும் சிறியது."
 
 #: src/Advisory/Rules.php:728
-#, fuzzy, no-php-format
+#, no-php-format
 msgid ""
 "The InnoDB buffer pool has a profound impact on performance for InnoDB "
 "tables. Assign all your remaining memory to this buffer. For database "
@@ -8488,15 +8488,15 @@ msgid ""
 "href=\"https://www.percona.com/blog/2007/11/03/choosing-"
 "innodb_buffer_pool_size/\">this article</a>"
 msgstr ""
-"INNODB இடையகக் குளம் INNODB அட்டவணைகளுக்கான செயல்திறனில் ஆழமான தாக்கத்தை "
+"INNODB இடையகக் குளம் இன்னோடிபி அட்டவணைகளுக்கான செயல்திறனில் ஆழமான தாக்கத்தை "
 "ஏற்படுத்துகிறது. உங்கள் மீதமுள்ள அனைத்து நினைவகத்தையும் இந்த இடையகத்திற்கு ஒதுக்குங்கள். "
 "சேமிப்பக இயந்திரமாக மட்டுமே இன்னோடிபியைப் பயன்படுத்தும் தரவுத்தள சேவையகங்களுக்கு, வேறு "
-"எந்த சேவைகளும் (எ.கா. ஒரு வலை சேவையகம்) இயங்கவில்லை, இது உங்களுக்கு கிடைக்கக்கூடிய "
-"நினைவகத்தில் 80% வரை அமைக்கலாம். அவ்வாறு இல்லையென்றால், உங்கள் பிற சேவைகள் மற்றும் இன்-இன்-"
-"இன் அல்லாத-அட்டவணைகளின் நினைவக நுகர்வு கவனமாக மதிப்பிட வேண்டும், அதற்கேற்ப இந்த மாறியை "
-"அமைக்க வேண்டும். இது மிக அதிகமாக அமைக்கப்பட்டால், உங்கள் கணினி மாற்றத் தொடங்கும், இது "
-"செயல்திறனை கணிசமாகக் குறைக்கிறது. <a href=\"https://www.percona.com/"
-"blog/2007/11/11/03/choosing-indb_buffer_pool_size/\"> இந்த கட்டுரை </a>"
+"எந்தச் சேவைகளும் (எ.கா. ஒரு வலை சேவையகம்) இயங்கவில்லை, இது உங்களுக்குக் கிடைக்கக்கூடிய "
+"நினைவகத்தில் 80% வரை அமைக்கலாம். அவ்வாறு இல்லையென்றால், உங்கள் பிற சேவைகள் மற்றும் இன்-இன்-இன் "
+"அல்லாத-அட்டவணைகளின் நினைவக நுகர்வு கவனமாக மதிப்பிட வேண்டும், அதற்கேற்ப இந்த மாறியை அமைக்க "
+"வேண்டும். இது மிக அதிகமாக அமைக்கப்பட்டால், உங்கள் கணினி மாற்றத் தொடங்கும், இது செயல்திறனை "
+"கணிசமாகக் குறைக்கிறது. <a href=\"https://www.percona.com/blog/2007/11/03/"
+"choosing-innodb_buffer_pool_size/\">இந்தக் கட்டுரை</a>"
 
 #: src/Advisory/Rules.php:738
 #, php-format
@@ -8520,15 +8520,14 @@ msgid "Enable {concurrent_insert} by setting it to 1"
 msgstr "1 ஐ அமைப்பதன் மூலம் {concurrent_insert} ஐ இயக்கவும்"
 
 #: src/Advisory/Rules.php:753
-#, fuzzy
 msgid ""
 "Setting {concurrent_insert} to 1 reduces contention between readers and "
 "writers for a given table. See also <a href=\"https://dev.mysql.com/doc/"
 "refman/5.5/en/concurrent-inserts.html\">MySQL Documentation</a>"
 msgstr ""
 "{ஒரே நேரத்தில்_ இன்செர்ட் 1 ஐ 1 க்கு அமைப்பது கொடுக்கப்பட்ட அட்டவணைக்கு வாசகர்களுக்கும் "
-"எழுத்தாளர்களுக்கும் இடையிலான வாதத்தை குறைக்கிறது. <a href=\"https://dev.mysql.com/"
-"doc/refman/5.5/en/concurrent-inserts.html\"> MySQL ஆவணங்கள் </a> ஐயும் காண்க"
+"எழுத்தாளர்களுக்கும் இடையிலான வாதத்தைக் குறைக்கிறது. <a href=\"https://dev.mysql.com/"
+"doc/refman/5.5/en/concurrent-inserts.html\">MySQL ஆவணங்கள்</a> ஐயும் காண்க"
 
 #: src/Advisory/Rules.php:757
 msgid "concurrent_insert is set to 0"
@@ -11781,14 +11780,13 @@ msgstr ""
 "அமர்வு. GC_MAXLIFETIME %5$d)."
 
 #: src/Config/ServerConfigChecks.php:340
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "%sLogin cookie validity%s should be set to 1800 seconds (30 minutes) at "
 "most. Values larger than 1800 may pose a security risk such as impersonation."
 msgstr ""
-"%sஉள்நுழைவு குக்கீ செல்லுபடியாகும் தன்மை%s 1800 வினாடிகளுக்கு (30 நிமிடங்கள்) "
-"அமைக்கப்பட வேண்டும். 1800 ஐ விடப் பெரிய மதிப்புகள் ஆள்மாறாட்டம் போன்ற பாதுகாப்பு அபாயத்தை "
-"ஏற்படுத்தக்கூடும்."
+"%sஉள்நுழைவு குக்கீ செல்லுபடியாகும் தன்மை%s 1800 வினாடிகளுக்கு (30 நிமிடங்கள்) அமைக்கப்பட "
+"வேண்டும். 1800 ஐ விடப் பெரிய மதிப்புகள் ஆள்மாறாட்டம் போன்ற பாதுகாப்பு அபாயத்தை ஏற்படுத்தக்கூடும்."
 
 #: src/Config/ServerConfigChecks.php:366
 #, php-format
@@ -12317,8 +12315,7 @@ msgstr ""
 msgid ""
 "Or alternately go to 'Operations' tab of any database to set it up there."
 msgstr ""
-"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;அல்லது மாற்றாக எதேனும் தரவுத்தளத்தின் "
-"'செயல்பாடுகள்' தத்தலுக்கு சென்று அங்கு அமைத்தத்தல்."
+"அல்லது மாற்றாக எதேனும் தரவுத்தளத்தின் 'செயல்பாடுகள்' தத்தலுக்கு சென்று அங்கு அமைத்தத்தல்."
 
 #: src/Controllers/HomeController.php:267
 msgid ""
@@ -12374,34 +12371,25 @@ msgstr ""
 "பார்க்கவும் [/doc]."
 
 #: src/Controllers/HomeController.php:356
-#, fuzzy
-#| msgid ""
-#| "The configuration file needs a valid key for cookie encryption. A "
-#| "temporary key was automatically generated for you. Please refer to the "
-#| "[doc@cfg_blowfish_secret]documentation[/doc]."
 msgid ""
 "The configuration file needs a valid key for query encryption. A temporary "
 "key was automatically generated for you. Please refer to the "
 "[doc@cfg_URLQueryEncryptionSecretKey]documentation[/doc]."
 msgstr ""
-"குக்கீ குறியாக்கத்திற்கு உள்ளமைவு கோப்புக்கு சரியான விசை தேவை. உங்களுக்காக ஒரு தற்காலிக "
-"விசை தானாக உருவாக்கப்பட்டது. தயவுசெய்து [doc@cfg_blowfish_secret] ஆவணங்களைப் "
-"பார்க்கவும் [/doc]."
+"வினவல் குறியாக்கத்திற்கு உள்ளமைவு கோப்பிற்கு சரியான விசை தேவை. உங்களுக்காக ஒரு தற்காலிக "
+"விசை தானாகவே உருவாக்கப்பட்டது. தயவுசெய்து "
+"[doc@cfg_URLQueryEncryptionSecretKey]ஆவணத்தைப்[/doc] பார்."
 
 #: src/Controllers/HomeController.php:366
-#, fuzzy, php-format
-#| msgid ""
-#| "The cookie encryption key in the configuration file is longer than "
-#| "necessary. It should only be %d bytes long. Please refer to the "
-#| "[doc@cfg_blowfish_secret]documentation[/doc]."
+#, php-format
 msgid ""
 "The query encryption key in the configuration file is longer than necessary. "
 "It should only be %d bytes long. Please refer to the "
 "[doc@cfg_URLQueryEncryptionSecretKey]documentation[/doc]."
 msgstr ""
-"உள்ளமைவு கோப்பில் உள்ள குக்கீ குறியாக்க விசை தேவையானதை விட நீளமானது. இது %d பைட்டுகள் "
-"மட்டுமே நீளமாக இருக்க வேண்டும். தயவுசெய்து [doc@cfg_blowfish_secret] ஆவணங்களைப் "
-"பார்க்கவும் [/doc]."
+"உள்ளமைவு கோப்பில் உள்ள வினவல் குறியாக்க விசை தேவையானதை விட நீளமாக உள்ளது. இது %d "
+"பைட்டுகள் மட்டுமே நீளமாக இருக்க வேண்டும். தயவுசெய்து "
+"[doc@cfg_URLQueryEncryptionSecretKey]ஆவணத்தைப்[/doc] பார்."
 
 #: src/Controllers/HomeController.php:384
 msgid ""
