@@ -58,7 +58,7 @@ msgstr "Тёмный"
 #: resources/templates/base.twig:99
 #: resources/templates/server/status/monitor/index.twig:8
 #: src/Controllers/JavaScriptMessagesController.php:215 src/Menu.php:479
-#: src/Util.php:1365
+#: src/Util.php:1365 src/Util.php:1367
 msgid "Settings"
 msgstr "Настройки"
 
@@ -279,7 +279,8 @@ msgstr "поле(я)"
 #: src/Controllers/JavaScriptMessagesController.php:311
 #: src/Controllers/Server/PrivilegesController.php:314
 #: src/Normalization.php:235 src/Tracking/Tracking.php:288
-#: src/Tracking/Tracking.php:403
+#: src/Tracking/Tracking.php:403 src/Tracking/Tracking.php:287
+#: src/Tracking/Tracking.php:402
 msgid "Go"
 msgstr "Вперёд"
 
@@ -445,6 +446,7 @@ msgstr "Загрузка"
 #: resources/templates/triggers/list.twig:106
 #: src/Controllers/JavaScriptMessagesController.php:154
 #: src/Tracking/Tracking.php:201 src/Tracking/Tracking.php:541
+#: src/Tracking/Tracking.php:200 src/Tracking/Tracking.php:540
 msgid "Close"
 msgstr "Закрыть"
 
@@ -587,7 +589,7 @@ msgstr "Группа узлов"
 #: src/Navigation/Nodes/NodeColumn.php:38
 #: src/Navigation/Nodes/NodeDatabase.php:59
 #: src/Navigation/Nodes/NodeTable.php:239 src/Util.php:1061 src/Util.php:1374
-#: src/Util.php:1391
+#: src/Util.php:1391 src/Util.php:1063 src/Util.php:1376 src/Util.php:1393
 msgid "Structure"
 msgstr "Структура"
 
@@ -852,7 +854,7 @@ msgstr "Сбросить"
 #: resources/templates/setup/home/index.twig:116
 #: resources/templates/setup/home/index.twig:134 src/Engines/Pbxt.php:167
 #: src/Html/Generator.php:685 src/Html/MySQLDocumentation.php:51
-#: src/Sanitize.php:188
+#: src/Sanitize.php:188 src/Html/Generator.php:671
 msgid "Documentation"
 msgstr "Документация"
 
@@ -1022,7 +1024,8 @@ msgstr "Повторный запрос"
 #: src/ConfigStorage/UserGroups.php:113
 #: src/Controllers/JavaScriptMessagesController.php:379
 #: src/Display/Results.php:1876 src/Html/Generator.php:533
-#: src/Html/Generator.php:790
+#: src/Html/Generator.php:790 src/Html/Generator.php:519
+#: src/Html/Generator.php:776
 msgid "Edit"
 msgstr "Изменить"
 
@@ -1041,6 +1044,7 @@ msgstr "Изменить"
 #: resources/templates/sql/query.twig:189
 #: src/Controllers/JavaScriptMessagesController.php:381
 #: src/Display/Results.php:2414 src/Tracking/Tracking.php:225
+#: src/Tracking/Tracking.php:224
 msgid "Delete"
 msgstr "Удалить"
 
@@ -1134,6 +1138,7 @@ msgstr "Анализировать"
 #: resources/templates/console/display.twig:55
 #: resources/templates/console/display.twig:213
 #: resources/templates/sql/profiling_chart.twig:3 src/Html/Generator.php:620
+#: src/Html/Generator.php:606
 msgid "Profiling"
 msgstr "Профилирование"
 
@@ -1215,7 +1220,7 @@ msgstr "Занято времени:"
 #: resources/templates/server/status/processes/index.twig:19
 #: resources/templates/server/status/variables/index.twig:42
 #: src/Config/Descriptions.php:928 src/Export/Export.php:692
-#: src/Html/Generator.php:589
+#: src/Html/Generator.php:589 src/Html/Generator.php:575
 msgid "Refresh"
 msgstr "Обновить"
 
@@ -1771,7 +1776,7 @@ msgstr "Название события"
 #: resources/templates/table/tracking/main.twig:31
 #: src/Config/ConfigFile.php:578
 #: src/Controllers/JavaScriptMessagesController.php:275 src/Menu.php:450
-#: src/Server/Status/Processes.php:106 src/Util.php:1361
+#: src/Server/Status/Processes.php:106 src/Util.php:1361 src/Util.php:1363
 msgid "Status"
 msgstr "Состояние"
 
@@ -1839,7 +1844,7 @@ msgstr "Определитель"
 #: src/Navigation/Nodes/NodeEventContainer.php:23
 #: src/Navigation/Nodes/NodeEventContainer.php:25
 #: src/Plugins/Export/ExportSql.php:984 src/Plugins/Export/ExportXml.php:93
-#: src/Util.php:1383
+#: src/Util.php:1383 src/Util.php:1385
 msgid "Events"
 msgstr "События"
 
@@ -1901,7 +1906,8 @@ msgstr "Отметить все"
 #: src/Config/Forms/User/ExportForm.php:148
 #: src/Controllers/JavaScriptMessagesController.php:361 src/Menu.php:241
 #: src/Menu.php:347 src/Menu.php:469 src/Server/Privileges.php:1301
-#: src/Util.php:1363 src/Util.php:1378 src/Util.php:1395
+#: src/Util.php:1363 src/Util.php:1378 src/Util.php:1395 src/Util.php:1365
+#: src/Util.php:1380 src/Util.php:1397
 msgid "Export"
 msgstr "Экспорт"
 
@@ -2084,7 +2090,7 @@ msgid "criteria"
 msgstr "критерий"
 
 #: resources/templates/database/multi_table_query/form.twig:56
-#: src/Util.php:1623
+#: src/Util.php:1623 src/Util.php:1635
 msgid "Sort"
 msgstr "Отсортировать"
 
@@ -2097,6 +2103,7 @@ msgstr "Отсортировать"
 #: resources/templates/table/search/index.twig:158
 #: src/Config/ConfigFile.php:554 src/Display/Results.php:1391
 #: src/Display/Results.php:1397 src/Util.php:1631 src/Util.php:1648
+#: src/Util.php:1643 src/Util.php:1660
 msgid "Ascending"
 msgstr "По возрастанию"
 
@@ -2109,6 +2116,7 @@ msgstr "По возрастанию"
 #: resources/templates/table/search/index.twig:162
 #: src/Config/ConfigFile.php:554 src/Display/Results.php:1386
 #: src/Display/Results.php:1402 src/Util.php:1636 src/Util.php:1653
+#: src/Util.php:1648 src/Util.php:1665
 msgid "Descending"
 msgstr "По убыванию"
 
@@ -2148,7 +2156,7 @@ msgid "Copy query"
 msgstr "Копировать запрос"
 
 #: resources/templates/database/multi_table_query/form.twig:176
-#: src/Html/Generator.php:558
+#: src/Html/Generator.php:558 src/Html/Generator.php:544
 msgid "Submit query"
 msgstr "Отправить запрос"
 
@@ -2209,21 +2217,21 @@ msgstr "Имя базы данных"
 #: resources/templates/database/operations/index.twig:132
 #: resources/templates/database/structure/copy_form.twig:21
 #: resources/templates/table/operations/index.twig:283
-#: src/Tracking/Tracking.php:273
+#: src/Tracking/Tracking.php:273 src/Tracking/Tracking.php:272
 msgid "Structure only"
 msgstr "Только структура"
 
 #: resources/templates/database/operations/index.twig:138
 #: resources/templates/database/structure/copy_form.twig:17
 #: resources/templates/table/operations/index.twig:289
-#: src/Tracking/Tracking.php:279
+#: src/Tracking/Tracking.php:279 src/Tracking/Tracking.php:278
 msgid "Structure and data"
 msgstr "Структура и данные"
 
 #: resources/templates/database/operations/index.twig:144
 #: resources/templates/database/structure/copy_form.twig:25
 #: resources/templates/table/operations/index.twig:295
-#: src/Tracking/Tracking.php:276
+#: src/Tracking/Tracking.php:276 src/Tracking/Tracking.php:275
 msgid "Data only"
 msgstr "Только данные"
 
@@ -2297,7 +2305,8 @@ msgstr "Имя хоста"
 #: resources/templates/table/privileges/index.twig:22
 #: src/Config/ConfigFile.php:582
 #: src/Controllers/Server/PrivilegesController.php:439 src/Menu.php:257
-#: src/Menu.php:369 src/Util.php:1381 src/Util.php:1397
+#: src/Menu.php:369 src/Util.php:1381 src/Util.php:1397 src/Util.php:1383
+#: src/Util.php:1399
 msgid "Privileges"
 msgstr "Привилегии"
 
@@ -2455,7 +2464,7 @@ msgid "This routine does not require any parameters."
 msgstr "Эта процедура не требует параметров."
 
 #: resources/templates/database/routines/index.twig:3 src/Menu.php:375
-#: src/Util.php:1382
+#: src/Util.php:1382 src/Util.php:1384
 msgid "Routines"
 msgstr "Процедуры"
 
@@ -2468,7 +2477,8 @@ msgstr "Процедуры"
 #: src/Config/ConfigFile.php:522 src/Config/ConfigFile.php:536
 #: src/Config/ConfigFile.php:590 src/Config/ConfigFile.php:600 src/Menu.php:223
 #: src/Menu.php:331 src/Navigation/Nodes/NodeTable.php:240 src/Util.php:1063
-#: src/Util.php:1376 src/Util.php:1393
+#: src/Util.php:1376 src/Util.php:1393 src/Util.php:1065 src/Util.php:1378
+#: src/Util.php:1395
 msgid "Search"
 msgstr "Поиск"
 
@@ -2584,6 +2594,7 @@ msgstr[2] "%1$s соответствий в таблице <strong>%2$s</strong>
 #: src/Config/ConfigFile.php:526 src/Config/ConfigFile.php:540
 #: src/Config/ConfigFile.php:604 src/Menu.php:207
 #: src/Navigation/Nodes/NodeTable.php:243 src/Util.php:1065 src/Util.php:1390
+#: src/Util.php:1067 src/Util.php:1392
 msgid "Browse"
 msgstr "Обзор"
 
@@ -2610,7 +2621,7 @@ msgstr[2] "%s таблиц"
 #: resources/templates/database/structure/body_for_table_summary.twig:8
 #: resources/templates/database/structure/table_header.twig:10
 #: resources/templates/server/replication/index.twig:5 src/Menu.php:501
-#: src/Server/Status/Data.php:124 src/Util.php:1367
+#: src/Server/Status/Data.php:124 src/Util.php:1367 src/Util.php:1369
 msgid "Replication"
 msgstr "Репликация"
 
@@ -2715,7 +2726,7 @@ msgid "Copy table with prefix"
 msgstr "Копировать таблицу с префиксом"
 
 #: resources/templates/database/structure/check_all_tables.twig:32
-#: src/Menu.php:409 src/Util.php:1387
+#: src/Menu.php:409 src/Util.php:1387 src/Util.php:1389
 msgid "Central columns"
 msgstr "Центральные столбцы"
 
@@ -2863,6 +2874,7 @@ msgstr "Реплицировано"
 #: resources/templates/sql/query.twig:76 src/Config/ConfigFile.php:524
 #: src/Config/ConfigFile.php:538 src/Config/ConfigFile.php:602 src/Menu.php:234
 #: src/Navigation/Nodes/NodeTable.php:241 src/Util.php:1064 src/Util.php:1394
+#: src/Util.php:1066 src/Util.php:1396
 msgid "Insert"
 msgstr "Вставить"
 
@@ -2969,13 +2981,13 @@ msgstr "Версии"
 
 #: resources/templates/database/tracking/tables.twig:115
 #: resources/templates/table/tracking/main.twig:73
-#: src/Tracking/Tracking.php:200
+#: src/Tracking/Tracking.php:200 src/Tracking/Tracking.php:199
 msgid "Tracking report"
 msgstr "Отчёт слежения"
 
 #: resources/templates/database/tracking/tables.twig:126
 #: resources/templates/table/tracking/main.twig:80
-#: src/Tracking/Tracking.php:540
+#: src/Tracking/Tracking.php:540 src/Tracking/Tracking.php:539
 msgid "Structure snapshot"
 msgstr "Снимок структуры"
 
@@ -3163,7 +3175,7 @@ msgstr "Конвертировать в Кану"
 #: src/Controllers/Table/Partition/RebuildController.php:56
 #: src/Controllers/Table/Partition/TruncateController.php:56
 #: src/Html/Generator.php:741 src/Import/Import.php:122 src/InsertEdit.php:423
-#: src/Message.php:138
+#: src/Message.php:138 src/Html/Generator.php:727
 msgid "Error"
 msgstr "Ошибка"
 
@@ -3243,7 +3255,7 @@ msgstr "Обновление"
 #. l10n: Title of the option on the Export page
 #: resources/templates/export.twig:68
 #: src/Controllers/JavaScriptMessagesController.php:134
-#: src/Html/Generator.php:765
+#: src/Html/Generator.php:765 src/Html/Generator.php:751
 msgid "SQL query:"
 msgstr "SQL запрос:"
 
@@ -3657,7 +3669,7 @@ msgstr "Применить"
 #: resources/templates/user_password.twig:2
 #: src/Controllers/JavaScriptMessagesController.php:411
 #: src/Export/Export.php:734 src/Html/Generator.php:849
-#: src/Plugins/Schema/ExportRelationSchema.php:266
+#: src/Plugins/Schema/ExportRelationSchema.php:266 src/Html/Generator.php:835
 msgid "Back"
 msgstr "Назад"
 
@@ -3668,6 +3680,7 @@ msgstr "Назад"
 #: resources/templates/server/status/monitor/index.twig:69
 #: src/Config/Forms/User/ImportForm.php:58 src/Menu.php:250 src/Menu.php:357
 #: src/Menu.php:474 src/Util.php:1364 src/Util.php:1379 src/Util.php:1396
+#: src/Util.php:1366 src/Util.php:1381 src/Util.php:1398
 msgid "Import"
 msgstr "Импорт"
 
@@ -4010,6 +4023,7 @@ msgstr "Выгрузка SQL"
 #: resources/templates/server/privileges/user_properties.twig:20
 #: src/Config/ConfigFile.php:576 src/Config/Descriptions.php:728
 #: src/Config/Descriptions.php:739 src/Menu.php:440 src/Util.php:1359
+#: src/Util.php:1361
 msgid "Databases"
 msgstr "Базы данных"
 
@@ -4450,8 +4464,9 @@ msgid ""
 "Enable advanced features in configuration file (<code>config.inc.php</"
 "code>), for example by starting from <code>config.sample.inc.php</code>."
 msgstr ""
-"Подключите дополнительные функции в конфигурационном файле (<code>config.inc."
-"php</code>), начните с примера в <code>config.sample.inc.php</code>."
+"Подключите дополнительные функции в конфигурационном файле "
+"(<code>config.inc.php</code>), начните с примера в "
+"<code>config.sample.inc.php</code>."
 
 #: resources/templates/relation/check_relations.twig:535
 msgid "Re-login to phpMyAdmin to load the updated configuration file."
@@ -4459,7 +4474,7 @@ msgstr ""
 "Перезайдите в phpMyAdmin, чтобы загрузить обновленный конфигурационный файл."
 
 #: resources/templates/server/binlog/index.twig:3 src/Menu.php:494
-#: src/Server/Status/Data.php:119 src/Util.php:1366
+#: src/Server/Status/Data.php:119 src/Util.php:1366 src/Util.php:1368
 msgid "Binary log"
 msgstr "Бинарный журнал"
 
@@ -4661,6 +4676,7 @@ msgstr "Ожидание очистки, в %"
 #: resources/templates/server/engines/show.twig:21
 #: resources/templates/sql/query.twig:194 src/Config/ConfigFile.php:580
 #: src/Menu.php:507 src/Server/Status/Data.php:186 src/Util.php:1368
+#: src/Util.php:1370
 msgid "Variables"
 msgstr "Переменные"
 
@@ -4681,7 +4697,7 @@ msgid "Importing into the current server"
 msgstr "Импорт на текущий сервер"
 
 #: resources/templates/server/plugins/index.twig:4 src/Menu.php:522
-#: src/Util.php:1370
+#: src/Util.php:1370 src/Util.php:1372
 msgid "Plugins"
 msgstr "Плагины"
 
@@ -5923,12 +5939,14 @@ msgstr "Применить делитель"
 #. l10n: shortcuts for Kilobyte
 #: resources/templates/server/status/monitor/index.twig:181
 #: src/Controllers/JavaScriptMessagesController.php:204 src/Util.php:308
+#: src/Util.php:310
 msgid "KiB"
 msgstr "КиБ"
 
 #. l10n: shortcuts for Megabyte
 #: resources/templates/server/status/monitor/index.twig:182
 #: src/Controllers/JavaScriptMessagesController.php:205 src/Util.php:310
+#: src/Util.php:312
 msgid "MiB"
 msgstr "МиБ"
 
@@ -5990,7 +6008,7 @@ msgid "Query analyzer"
 msgstr "Анализ запроса"
 
 #: resources/templates/server/status/monitor/index.twig:273 src/Menu.php:339
-#: src/Util.php:1377
+#: src/Util.php:1377 src/Util.php:1379
 msgid "Query"
 msgstr "Запрос&nbsp;по&nbsp;шаблону"
 
@@ -6980,6 +6998,7 @@ msgstr "Проверить целостность данных"
 #: resources/templates/table/operations/view.twig:8
 #: src/Config/ConfigFile.php:592 src/Menu.php:268 src/Menu.php:278
 #: src/Menu.php:362 src/Util.php:1066 src/Util.php:1380 src/Util.php:1398
+#: src/Util.php:1068 src/Util.php:1382 src/Util.php:1400
 msgid "Operations"
 msgstr "Операции"
 
@@ -7453,6 +7472,7 @@ msgstr "Экспорт триггера %s"
 #: src/Plugins/Export/ExportSql.php:1855
 #: src/Plugins/Export/ExportTexytext.php:410
 #: src/Plugins/Export/ExportXml.php:113 src/Util.php:1384 src/Util.php:1400
+#: src/Util.php:1386 src/Util.php:1402
 msgid "Triggers"
 msgstr "Триггеры"
 
@@ -7797,15 +7817,15 @@ msgstr "Оптимальный метод кеширования."
 #: src/Advisory/Rules.php:217
 msgid ""
 "You are using the MySQL Query cache with a fairly high traffic database. It "
-"might be worth considering to use <a href=\"https://dev.mysql.com/doc/"
-"refman/5.6/en/ha-memcached.html\">memcached</a> instead of the MySQL Query "
-"cache, especially if you have multiple replicas."
+"might be worth considering to use <a href=\"https://dev.mysql.com/doc/refman/"
+"5.6/en/ha-memcached.html\">memcached</a> instead of the MySQL Query cache, "
+"especially if you have multiple replicas."
 msgstr ""
 "Вы используете механизм кеширования запросов MySQL с базой данных, имеющей "
 "достаточно объемный трафик. Стоит обратить внимание на возможность "
-"использования <a href=\"https://dev.mysql.com/doc/refman/5.6/en/ha-memcached."
-"html\">memcached</a> вместо механизма кеширования запросов MySQL, в "
-"особенности при наличии нескольких подчиненных серверов."
+"использования <a href=\"https://dev.mysql.com/doc/refman/5.6/en/ha-"
+"memcached.html\">memcached</a> вместо механизма кеширования запросов MySQL, "
+"в особенности при наличии нескольких подчиненных серверов."
 
 #: src/Advisory/Rules.php:223
 #, php-format
@@ -8070,8 +8090,8 @@ msgstr ""
 "исправления данной проблемы вы должны переписать запросы таким образом, "
 "чтобы исключить условия (Внутри временной таблицы: Наличие столбца BLOB или "
 "TEXT, или наличие столбца более, чем 512 байт), упомянутые в <a "
-"href=\"https://dev.mysql.com/doc/refman/5.5/en/internal-temporary-tables."
-"html\">Документации MySQL</a>"
+"href=\"https://dev.mysql.com/doc/refman/5.5/en/internal-temporary-"
+"tables.html\">Документации MySQL</a>"
 
 #: src/Advisory/Rules.php:383
 #, php-format
@@ -8484,8 +8504,8 @@ msgid ""
 "note however that you cannot simply change the value of this variable. You "
 "need to shutdown the server, remove the InnoDB log files, set the new value "
 "in my.cnf, start the server, then check the error logs if everything went "
-"fine. See also <a href=\"https://mysqldatabaseadministration.blogspot."
-"com/2007/01/increase-innodblogfilesize-proper-way.html\">this blog entry</a>"
+"fine. See also <a href=\"https://mysqldatabaseadministration.blogspot.com/"
+"2007/01/increase-innodblogfilesize-proper-way.html\">this blog entry</a>"
 msgstr ""
 "В особенности на системах с большим количеством записей в таблицы InnoDB "
 "необходимо установить {innodb_log_file_size} в 25%% от "
@@ -8530,11 +8550,11 @@ msgid ""
 msgstr ""
 "Обычно бывает достаточно установить {innodb_log_file_size} в 25%% от размера "
 "{innodb_buffer_pool_size}. Очень большое значение {innodb_log_file_size} "
-"заметно замедляет восстановление после сбоя. Смотрите <a href=\"https://www."
-"percona.com/blog/2006/07/03/choosing-proper-innodb_log_file_size/\">данную "
-"статью</a>. Необходимо остановить сервер, удалить файлы журналов InnoDB, "
-"установить новое значение в my.cnf, запустить сервер и проверить журнал "
-"ошибок на предмет наличия проблем. Смотрите также <a href=\"https://"
+"заметно замедляет восстановление после сбоя. Смотрите <a href=\"https://"
+"www.percona.com/blog/2006/07/03/choosing-proper-innodb_log_file_size/"
+"\">данную статью</a>. Необходимо остановить сервер, удалить файлы журналов "
+"InnoDB, установить новое значение в my.cnf, запустить сервер и проверить "
+"журнал ошибок на предмет наличия проблем. Смотрите также <a href=\"https://"
 "mysqldatabaseadministration.blogspot.com/2007/01/increase-innodblogfilesize-"
 "proper-way.html\">данную запись блога</a>"
 
@@ -9105,7 +9125,8 @@ msgstr "Вьетнамский"
 #: src/Config/ConfigFile.php:588 src/Config/ConfigFile.php:598
 #: src/Config/Descriptions.php:755 src/Menu.php:219 src/Menu.php:327
 #: src/Menu.php:445 src/Navigation/Nodes/NodeTable.php:242 src/Util.php:1062
-#: src/Util.php:1360 src/Util.php:1375 src/Util.php:1392
+#: src/Util.php:1360 src/Util.php:1375 src/Util.php:1392 src/Util.php:1064
+#: src/Util.php:1362 src/Util.php:1377 src/Util.php:1394
 msgid "SQL"
 msgstr "SQL"
 
@@ -9905,13 +9926,13 @@ msgstr ""
 
 #: src/Config/Descriptions.php:354
 msgid ""
-"More information on [a@https://github.com/phpmyadmin/phpmyadmin/"
-"issues/8970]phpMyAdmin issue tracker[/a] and [a@https://bugs.mysql."
-"com/19588]MySQL Bugs[/a]"
+"More information on [a@https://github.com/phpmyadmin/phpmyadmin/issues/"
+"8970]phpMyAdmin issue tracker[/a] and [a@https://bugs.mysql.com/19588]MySQL "
+"Bugs[/a]"
 msgstr ""
-"Подробнее смотрите на [a@https://github.com/phpmyadmin/phpmyadmin/"
-"issues/8970]phpMyAdmin issue tracker[/a] и [a@https://bugs.mysql."
-"com/19588]MySQL Bugs[/a]"
+"Подробнее смотрите на [a@https://github.com/phpmyadmin/phpmyadmin/issues/"
+"8970]phpMyAdmin issue tracker[/a] и [a@https://bugs.mysql.com/19588]MySQL "
+"Bugs[/a]"
 
 #: src/Config/Descriptions.php:358
 msgid ""
@@ -11586,10 +11607,12 @@ msgid "Skip locked tables"
 msgstr "Пропускать заблокированные таблицы"
 
 #: src/Config/Descriptions.php:927 src/Html/Generator.php:498
+#: src/Html/Generator.php:494
 msgid "Explain SQL"
 msgstr "Анализ SQL запроса"
 
 #: src/Config/Descriptions.php:929 src/Html/Generator.php:569
+#: src/Html/Generator.php:555
 msgid "Create PHP code"
 msgstr "Создать PHP-код"
 
@@ -11907,8 +11930,8 @@ msgid ""
 "%5$d)."
 msgstr ""
 "%1$sLogin cookie validity%2$s более %3$ssession.gc_maxlifetime%4$s секунд "
-"может вызывать случайные сбросы сессии (текущее значение session."
-"gc_maxlifetime - %5$d)."
+"может вызывать случайные сбросы сессии (текущее значение "
+"session.gc_maxlifetime - %5$d)."
 
 #: src/Config/ServerConfigChecks.php:340
 #, php-format
@@ -12182,6 +12205,12 @@ msgstr ""
 #: src/Controllers/Triggers/IndexController.php:84
 #: src/Controllers/View/CreateController.php:67
 #: src/Controllers/View/CreateController.php:72
+#: src/Controllers/Database/ImportController.php:60
+#: src/Controllers/Database/ImportController.php:65
+#: src/Controllers/Table/ImportController.php:69
+#: src/Controllers/Table/ImportController.php:74
+#: src/Controllers/Table/TrackingController.php:68
+#: src/Controllers/Table/TrackingController.php:73
 msgid "No databases selected."
 msgstr "Ни одна база данных не выбрана."
 
@@ -12234,6 +12263,9 @@ msgstr ""
 #: src/Controllers/Database/ImportController.php:76
 #: src/Controllers/Server/ImportController.php:61
 #: src/Controllers/Table/ImportController.php:100
+#: src/Controllers/Database/ImportController.php:75
+#: src/Controllers/Server/ImportController.php:60
+#: src/Controllers/Table/ImportController.php:99
 msgid "Could not load import plugins, please check your installation!"
 msgstr "Не удалось загрузить плагины импорта. Пожалуйста, проверьте установку!"
 
@@ -12301,6 +12333,8 @@ msgstr "У вас нет прав администрировать пользо�
 #: src/Controllers/Table/ZoomSearchController.php:114
 #: src/Controllers/Table/ZoomSearchController.php:119
 #: src/Controllers/Triggers/IndexController.php:74
+#: src/Controllers/Table/ImportController.php:81
+#: src/Controllers/Table/ImportController.php:86
 msgid "No table selected."
 msgstr "Ни одна таблица не выбрана."
 
@@ -12454,16 +12488,17 @@ msgstr ""
 
 #: src/Controllers/HomeController.php:267
 msgid ""
-"Your PHP parameter [a@https://www.php.net/manual/en/session.configuration."
-"php#ini.session.gc-maxlifetime@_blank]session.gc_maxlifetime[/a] is lower "
-"than cookie validity configured in phpMyAdmin, because of this, your login "
-"might expire sooner than configured in phpMyAdmin."
+"Your PHP parameter [a@https://www.php.net/manual/en/"
+"session.configuration.php#ini.session.gc-"
+"maxlifetime@_blank]session.gc_maxlifetime[/a] is lower than cookie validity "
+"configured in phpMyAdmin, because of this, your login might expire sooner "
+"than configured in phpMyAdmin."
 msgstr ""
-"Значение PHP параметра [a@https://www.php.net/manual/en/session."
-"configuration.php#ini.session.gc-maxlifetime@_blank]session.gc_maxlifetime[/"
-"a] меньше, чем длительность хранения cookie, определённая в phpMyAdmin. По "
-"этой причине сессия входа может закончиться быстрее установленной в "
-"phpMyAdmin."
+"Значение PHP параметра [a@https://www.php.net/manual/en/"
+"session.configuration.php#ini.session.gc-"
+"maxlifetime@_blank]session.gc_maxlifetime[/a] меньше, чем длительность "
+"хранения cookie, определённая в phpMyAdmin. По этой причине сессия входа "
+"может закончиться быстрее установленной в phpMyAdmin."
 
 #: src/Controllers/HomeController.php:287
 msgid ""
@@ -12516,19 +12551,15 @@ msgstr ""
 "обратитесь к [doc@cfg_URLQueryEncryptionSecretKey]документации[/doc]."
 
 #: src/Controllers/HomeController.php:366
-#, fuzzy, php-format
-#| msgid ""
-#| "The cookie encryption key in the configuration file is longer than "
-#| "necessary. It should only be %d bytes long. Please refer to the "
-#| "[doc@cfg_blowfish_secret]documentation[/doc]."
+#, php-format
 msgid ""
 "The query encryption key in the configuration file is longer than necessary. "
 "It should only be %d bytes long. Please refer to the "
 "[doc@cfg_URLQueryEncryptionSecretKey]documentation[/doc]."
 msgstr ""
-"Ключ шифрования куки в конфигурационном файле длиннее необходимого. Его "
-"длина должна быть всего %d байт. Пожалуйста, обратитесь к "
-"[doc@cfg_blowfish_secret]документации[/doc] ."
+"Ключ шифрования запроса в файле конфигурации длиннее, чем необходимо. Его "
+"длина должна составлять только %d байт. См. "
+"[doc@cfg_URLQueryEncryptionSecretKey]documentation[/doc]."
 
 #: src/Controllers/HomeController.php:384
 msgid ""
@@ -12939,11 +12970,13 @@ msgstr "Другое"
 
 #. l10n: Thousands separator
 #: src/Controllers/JavaScriptMessagesController.php:169 src/Util.php:388
+#: src/Util.php:390
 msgid ","
 msgstr " "
 
 #. l10n: Decimal separator
 #: src/Controllers/JavaScriptMessagesController.php:171 src/Util.php:386
+#: src/Util.php:388
 msgid "."
 msgstr ","
 
@@ -13029,26 +13062,31 @@ msgstr "Принято байт"
 
 #. l10n: shortcuts for Byte
 #: src/Controllers/JavaScriptMessagesController.php:203 src/Util.php:306
+#: src/Util.php:308
 msgid "B"
 msgstr "Байт"
 
 #. l10n: shortcuts for Gigabyte
 #: src/Controllers/JavaScriptMessagesController.php:206 src/Util.php:312
+#: src/Util.php:314
 msgid "GiB"
 msgstr "ГиБ"
 
 #. l10n: shortcuts for Terabyte
 #: src/Controllers/JavaScriptMessagesController.php:207 src/Util.php:314
+#: src/Util.php:316
 msgid "TiB"
 msgstr "ТБ"
 
 #. l10n: shortcuts for Petabyte
 #: src/Controllers/JavaScriptMessagesController.php:208 src/Util.php:316
+#: src/Util.php:318
 msgid "PiB"
 msgstr "ПиБ"
 
 #. l10n: shortcuts for Exabyte
 #: src/Controllers/JavaScriptMessagesController.php:209 src/Util.php:318
+#: src/Util.php:320
 msgid "EiB"
 msgstr "ЭБ"
 
@@ -14164,6 +14202,8 @@ msgid ""
 "The fullscreen request was denied because the Fullscreen API is disabled by "
 "user preference in the browser."
 msgstr ""
+"Запрос на полноэкранный режим был отклонён, поскольку API полноэкранного "
+"режима отключён в настройках браузера."
 
 #: src/Controllers/JavaScriptMessagesController.php:700
 msgctxt "Month name"
@@ -14226,96 +14266,115 @@ msgid "December"
 msgstr "Декабрь"
 
 #: src/Controllers/JavaScriptMessagesController.php:712 src/Util.php:500
+#: src/Util.php:502
 msgctxt "Short month name for January"
 msgid "Jan"
 msgstr "Янв"
 
 #: src/Controllers/JavaScriptMessagesController.php:713 src/Util.php:501
+#: src/Util.php:503
 msgctxt "Short month name for February"
 msgid "Feb"
 msgstr "Фев"
 
 #: src/Controllers/JavaScriptMessagesController.php:714 src/Util.php:502
+#: src/Util.php:504
 msgctxt "Short month name for March"
 msgid "Mar"
 msgstr "Мар"
 
 #: src/Controllers/JavaScriptMessagesController.php:715 src/Util.php:503
+#: src/Util.php:505
 msgctxt "Short month name for April"
 msgid "Apr"
 msgstr "Апр"
 
 #: src/Controllers/JavaScriptMessagesController.php:716 src/Util.php:504
+#: src/Util.php:506
 msgctxt "Short month name for May"
 msgid "May"
 msgstr "Май"
 
 #: src/Controllers/JavaScriptMessagesController.php:717 src/Util.php:505
+#: src/Util.php:507
 msgctxt "Short month name for June"
 msgid "Jun"
 msgstr "Июн"
 
 #: src/Controllers/JavaScriptMessagesController.php:718 src/Util.php:506
+#: src/Util.php:508
 msgctxt "Short month name for July"
 msgid "Jul"
 msgstr "Июл"
 
 #: src/Controllers/JavaScriptMessagesController.php:719 src/Util.php:507
+#: src/Util.php:509
 msgctxt "Short month name for August"
 msgid "Aug"
 msgstr "Авг"
 
 #: src/Controllers/JavaScriptMessagesController.php:720 src/Util.php:508
+#: src/Util.php:510
 msgctxt "Short month name for September"
 msgid "Sep"
 msgstr "Сен"
 
 #: src/Controllers/JavaScriptMessagesController.php:721 src/Util.php:509
+#: src/Util.php:511
 msgctxt "Short month name for October"
 msgid "Oct"
 msgstr "Окт"
 
 #: src/Controllers/JavaScriptMessagesController.php:722 src/Util.php:510
+#: src/Util.php:512
 msgctxt "Short month name for November"
 msgid "Nov"
 msgstr "Ноя"
 
 #: src/Controllers/JavaScriptMessagesController.php:723 src/Util.php:511
+#: src/Util.php:513
 msgctxt "Short month name for December"
 msgid "Dec"
 msgstr "Дек"
 
 #: src/Controllers/JavaScriptMessagesController.php:731 src/Util.php:514
+#: src/Util.php:516
 msgctxt "Short week day name for Sunday"
 msgid "Sun"
 msgstr "Вс"
 
 #: src/Controllers/JavaScriptMessagesController.php:732 src/Util.php:515
+#: src/Util.php:517
 msgctxt "Short week day name for Monday"
 msgid "Mon"
 msgstr "Пн"
 
 #: src/Controllers/JavaScriptMessagesController.php:733 src/Util.php:516
+#: src/Util.php:518
 msgctxt "Short week day name for Tuesday"
 msgid "Tue"
 msgstr "Вт"
 
 #: src/Controllers/JavaScriptMessagesController.php:734 src/Util.php:517
+#: src/Util.php:519
 msgctxt "Short week day name for Wednesday"
 msgid "Wed"
 msgstr "Ср"
 
 #: src/Controllers/JavaScriptMessagesController.php:735 src/Util.php:518
+#: src/Util.php:520
 msgctxt "Short week day name for Thursday"
 msgid "Thu"
 msgstr "Чт"
 
 #: src/Controllers/JavaScriptMessagesController.php:736 src/Util.php:519
+#: src/Util.php:521
 msgctxt "Short week day name for Friday"
 msgid "Fri"
 msgstr "Пт"
 
 #: src/Controllers/JavaScriptMessagesController.php:737 src/Util.php:520
+#: src/Util.php:522
 msgctxt "Short week day name for Saturday"
 msgid "Sat"
 msgstr "Сб"
@@ -15577,7 +15636,7 @@ msgstr "Выбранные столбцы уже в правильном пор�
 
 #: src/Controllers/Table/Structure/PartitioningController.php:257
 #: src/Controllers/Table/Structure/SaveController.php:281
-#: src/Tracking/Tracking.php:733
+#: src/Tracking/Tracking.php:733 src/Tracking/Tracking.php:731
 msgid "Query error"
 msgstr "Ошибка запроса"
 
@@ -15596,19 +15655,23 @@ msgid ""
 msgstr "Таблица %1$s была успешно изменена. Привилегии обновлены."
 
 #: src/Controllers/Table/TrackingController.php:91
+#: src/Controllers/Table/TrackingController.php:90
 #, php-format
 msgid "Tracking of %s is activated."
 msgstr "Слежение за %s включено."
 
 #: src/Controllers/Table/TrackingController.php:144
+#: src/Controllers/Table/TrackingController.php:143
 msgid "SQL statements executed."
 msgstr "Выполненные SQL запросы."
 
 #: src/Controllers/Table/TrackingController.php:198
+#: src/Controllers/Table/TrackingController.php:197
 msgid "Tracking versions deleted successfully."
 msgstr "Отслеживаемые версии были успешно удалены."
 
 #: src/Controllers/Table/TrackingController.php:203
+#: src/Controllers/Table/TrackingController.php:202
 msgid "No versions selected."
 msgstr "Версии не выбраны."
 
@@ -15724,7 +15787,7 @@ msgstr "Ошибка: внутреннюю ссылку невозможно у�
 msgid "Internal relationship has been removed."
 msgstr "Внутренняя ссылка удалена."
 
-#: src/Database/Designer.php:117
+#: src/Database/Designer.php:117 src/Database/Designer.php:116
 msgid "Could not load schema plugins, please check your installation!"
 msgstr ""
 "Не удалось загрузить плагины схемы, проверьте содержимое установленной копии "
@@ -15746,6 +15809,7 @@ msgstr "Данный запрос не был выполнен: \"%s\""
 #: src/Database/Routines.php:1013 src/Html/Generator.php:806
 #: src/Triggers/Triggers.php:88 src/Triggers/Triggers.php:97
 #: src/Triggers/Triggers.php:111 src/Triggers/Triggers.php:132
+#: src/Html/Generator.php:792
 msgid "MySQL said: "
 msgstr "Ответ MySQL: "
 
@@ -16373,30 +16437,29 @@ msgstr "password_hash() PHP-функции с настройками по умо
 msgid "password_hash() PHP function"
 msgstr "password_hash() PHP-функции"
 
-#: src/Html/Generator.php:507
+#: src/Html/Generator.php:507 src/Html/Generator.php:503
 msgid "Skip Explain SQL"
 msgstr "Убрать анализ SQL"
 
 #: src/Html/Generator.php:517
 #, fuzzy
-#| msgid "Skip Validate SQL"
 msgid "Skip Analyze SQL"
 msgstr "Убрать проверку синтаксиса SQL"
 
-#: src/Html/Generator.php:549
+#: src/Html/Generator.php:549 src/Html/Generator.php:535
 msgid "Without PHP code"
 msgstr "Без кода PHP"
 
-#: src/Html/Generator.php:634
+#: src/Html/Generator.php:634 src/Html/Generator.php:620
 msgctxt "Inline edit query"
 msgid "Edit inline"
 msgstr "Построчная правка"
 
-#: src/Html/Generator.php:748
+#: src/Html/Generator.php:748 src/Html/Generator.php:734
 msgid "Static analysis:"
 msgstr "Статический анализ:"
 
-#: src/Html/Generator.php:751
+#: src/Html/Generator.php:751 src/Html/Generator.php:737
 #, php-format
 msgid "%d errors were found during analysis."
 msgstr "Найдено %d ошибок при анализе."
@@ -16567,6 +16630,7 @@ msgid "%1$s (near <code>%2$s</code>)"
 msgstr "%1$s (около <code>%2$s</code>)"
 
 #: src/Menu.php:284 src/Menu.php:395 src/Util.php:1385 src/Util.php:1399
+#: src/Util.php:1387 src/Util.php:1401
 msgid "Tracking"
 msgstr "Слежение"
 
@@ -16574,7 +16638,7 @@ msgstr "Слежение"
 msgid "Database seems to be empty!"
 msgstr "Пустая база данных!"
 
-#: src/Menu.php:402 src/Util.php:1386
+#: src/Menu.php:402 src/Util.php:1386 src/Util.php:1388
 msgid "Designer"
 msgstr "Дизайнер"
 
@@ -16582,11 +16646,11 @@ msgstr "Дизайнер"
 msgid "User accounts"
 msgstr "Учётные записи пользователей"
 
-#: src/Menu.php:512 src/Util.php:1369
+#: src/Menu.php:512 src/Util.php:1369 src/Util.php:1371
 msgid "Charsets"
 msgstr "Кодировки"
 
-#: src/Menu.php:517 src/Util.php:1371
+#: src/Menu.php:517 src/Util.php:1371 src/Util.php:1373
 msgid "Engines"
 msgstr "Типы таблиц"
 
@@ -17063,8 +17127,8 @@ msgid ""
 "the administrator of the MySQL server."
 msgstr ""
 "phpMyAdmin не смог установить соединение с сервером MySQL. Проверьте хост, "
-"имя пользователя и пароль установленные в конфигурационном файле config.inc."
-"php и удостоверьтесь, что они соответствуют данным полученным от "
+"имя пользователя и пароль установленные в конфигурационном файле "
+"config.inc.php и удостоверьтесь, что они соответствуют данным полученным от "
 "администратора сервера MySQL."
 
 #: src/Plugins/Auth/AuthenticationConfig.php:130
@@ -17692,7 +17756,7 @@ msgstr ""
 msgid "XML"
 msgstr "XML"
 
-#: src/Plugins.php:405
+#: src/Plugins.php:405 src/Plugins.php:600
 msgid "This format has no options"
 msgstr "Для этого формата нет настраиваемых параметров"
 
@@ -17805,7 +17869,7 @@ msgstr ""
 
 #. l10n: See https://www.php.net/manual/en/function.strftime.php
 #: src/Plugins/Transformations/Abs/DateFormatTransformationsPlugin.php:129
-#: src/Util.php:525
+#: src/Util.php:525 src/Util.php:527
 msgid "%B %d, %Y at %I:%M %p"
 msgstr "%B %d %Y г., %H:%M"
 
@@ -18553,50 +18617,50 @@ msgstr "Выражение определяющее структуру"
 msgid "Data manipulation statement"
 msgstr "Выражение изменяющее данные"
 
-#: src/Tracking/Tracking.php:204
+#: src/Tracking/Tracking.php:204 src/Tracking/Tracking.php:203
 msgid "Tracking statements"
 msgstr "Отслеживаемые выражения"
 
-#: src/Tracking/Tracking.php:220
+#: src/Tracking/Tracking.php:220 src/Tracking/Tracking.php:219
 msgid "Delete tracking data row from report"
 msgstr "Удалить строку данных слежения за таблицей"
 
-#: src/Tracking/Tracking.php:230
+#: src/Tracking/Tracking.php:230 src/Tracking/Tracking.php:229
 msgid "No data"
 msgstr "Нет данных"
 
-#: src/Tracking/Tracking.php:291
+#: src/Tracking/Tracking.php:291 src/Tracking/Tracking.php:290
 #, php-format
 msgid "Show %1$s with dates from %2$s to %3$s by user %4$s %5$s"
 msgstr "Вывести %1$s с датой от %2$s до %3$s пользователя %4$s %5$s"
 
-#: src/Tracking/Tracking.php:394
+#: src/Tracking/Tracking.php:394 src/Tracking/Tracking.php:393
 msgid "SQL dump (file download)"
 msgstr "Выгрузка SQL (файл)"
 
-#: src/Tracking/Tracking.php:396
+#: src/Tracking/Tracking.php:396 src/Tracking/Tracking.php:395
 msgid "SQL dump"
 msgstr "Выгрузка SQL"
 
-#: src/Tracking/Tracking.php:399
+#: src/Tracking/Tracking.php:399 src/Tracking/Tracking.php:398
 msgid "This option will replace your table and contained data."
 msgstr "Данный параметр заместит таблицу и содержащиеся в ней данные."
 
-#: src/Tracking/Tracking.php:401
+#: src/Tracking/Tracking.php:401 src/Tracking/Tracking.php:400
 msgid "SQL execution"
 msgstr "Выполнение SQL запроса"
 
-#: src/Tracking/Tracking.php:405
+#: src/Tracking/Tracking.php:405 src/Tracking/Tracking.php:404
 #, php-format
 msgid "Export as %s"
 msgstr "Экспортировать как %s"
 
-#: src/Tracking/Tracking.php:558
+#: src/Tracking/Tracking.php:558 src/Tracking/Tracking.php:557
 #, php-format
 msgid "Version %s snapshot (SQL code)"
 msgstr "Обзор версии %s (SQL код)"
 
-#: src/Tracking/Tracking.php:792
+#: src/Tracking/Tracking.php:792 src/Tracking/Tracking.php:790
 msgid ""
 "You can execute the dump by creating and using a temporary database. Please "
 "ensure that you have the privileges to do so."
@@ -18605,35 +18669,35 @@ msgstr ""
 "временную базу данных. Убедитесь, что у вас есть для этого достаточные "
 "привилегии."
 
-#: src/Tracking/Tracking.php:796
+#: src/Tracking/Tracking.php:796 src/Tracking/Tracking.php:794
 msgid "Comment out these two lines if you do not need them."
 msgstr "Закомментируйте эти две строки, если они вам не нужны."
 
-#: src/Tracking/Tracking.php:807
+#: src/Tracking/Tracking.php:807 src/Tracking/Tracking.php:805
 msgid "SQL statements exported. Please copy the dump or execute it."
 msgstr "SQL выражения успешно выгружены; скопируйте, либо выполните их."
 
-#: src/Tracking/Tracking.php:840
+#: src/Tracking/Tracking.php:840 src/Tracking/Tracking.php:838
 #, php-format
 msgid "Tracking report for table `%s`"
 msgstr "Отчёт слежения для таблицы `%s`"
 
-#: src/Tracking/Tracking.php:863
+#: src/Tracking/Tracking.php:863 src/Tracking/Tracking.php:861
 #, php-format
 msgid "Tracking for %1$s was activated at version %2$s."
 msgstr "Слежение за %1$s было включено на версии %2$s."
 
-#: src/Tracking/Tracking.php:866
+#: src/Tracking/Tracking.php:866 src/Tracking/Tracking.php:864
 #, php-format
 msgid "Tracking for %1$s was deactivated at version %2$s."
 msgstr "Слежение за %1$s было отключено на версии %2$s."
 
-#: src/Tracking/Tracking.php:961
+#: src/Tracking/Tracking.php:961 src/Tracking/Tracking.php:959
 #, php-format
 msgid "Version %1$s of %2$s was deleted."
 msgstr "Версия %1$s из %2$s удалена."
 
-#: src/Tracking/Tracking.php:992
+#: src/Tracking/Tracking.php:992 src/Tracking/Tracking.php:990
 #, php-format
 msgid "Version %1$s was created, tracking for %2$s is active."
 msgstr "Версия %1$s создана, отслеживание %2$s включено."
@@ -18978,6 +19042,8 @@ msgid ""
 "Stores vector data optimized for operations such as similarity search and "
 "machine learning applications"
 msgstr ""
+"Хранит векторные данные, оптимизированные для таких операций, как поиск по "
+"схожести и приложения машинного обучения"
 
 #: src/Types.php:604
 msgctxt "numeric types"
@@ -19002,27 +19068,27 @@ msgstr "Профиль был обновлен."
 msgid "Password is too long!"
 msgstr "Пароль слишком длинный!"
 
-#: src/Util.php:129
+#: src/Util.php:129 src/Util.php:130
 #, php-format
 msgid "Max: %s%s"
 msgstr "Максимальный размер: %s%s"
 
-#: src/Util.php:534
+#: src/Util.php:534 src/Util.php:536
 msgctxt "AM/PM indication in time"
 msgid "PM"
 msgstr "PM"
 
-#: src/Util.php:536
+#: src/Util.php:536 src/Util.php:538
 msgctxt "AM/PM indication in time"
 msgid "AM"
 msgstr "AM"
 
-#: src/Util.php:609
+#: src/Util.php:609 src/Util.php:611
 #, php-format
 msgid "%s days, %s hours, %s minutes and %s seconds"
 msgstr "%s дн, %s ч, %s мин и %s с"
 
-#: src/Util.php:1362
+#: src/Util.php:1362 src/Util.php:1364
 msgid "Users"
 msgstr "Пользователи"
 
@@ -19235,9 +19301,9 @@ msgstr "Файлов внутри ZIP-архива не найдено!"
 #~ "option is incompatible with phpMyAdmin and might cause some data to be "
 #~ "corrupted!"
 #~ msgstr ""
-#~ "В конфигурации PHP включен несовместимый с phpMyAdmin параметр mbstring."
-#~ "func_overload. Для предотвращения возможной потери данных данный параметр "
-#~ "должен быть выключен!"
+#~ "В конфигурации PHP включен несовместимый с phpMyAdmin параметр "
+#~ "mbstring.func_overload. Для предотвращения возможной потери данных данный "
+#~ "параметр должен быть выключен!"
 
 #~ msgid "Replica configuration"
 #~ msgstr "Настройка подчиненного сервера"
@@ -21667,3 +21733,6 @@ msgstr "Файлов внутри ZIP-архива не найдено!"
 
 #~ msgid "Choose…"
 #~ msgstr "Выбрать…"
+
+#~ msgid "Skip Validate SQL"
+#~ msgstr "Убрать проверку синтаксиса SQL"
